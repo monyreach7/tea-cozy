@@ -7,10 +7,6 @@ body {
   text-align: center;
 }
 
-header {
-  height: 780px;
-}
-
 .container.nav {
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -41,6 +37,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .banner-title {
@@ -69,5 +66,36 @@ header {
   width: 1200px;
   height: 500px;
   background-image: url("images/img-locations-background.jpeg");
+  margin: auto;
 }
 
+.location h1 {
+  padding-top: 50px;
+}
+
+.loc-box {
+  background-color: black;
+  width: 300px;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+
+.loc-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loc-title {
+  font-weight: bold;
+}
+
+.contact {
+  padding-top: 80px;
+  height: 200px;
+}
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: left;
+}
