@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+header {
+  height: 780px;
+}
+
 .container.nav {
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -27,5 +31,43 @@ body {
   right: 10px;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.banner {
+  margin-top: 40px;
+  height: 700px;
+  width: 1200px;
+  background-image: url("images/img-mission-background.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title {
+  width: 1200px;
+  background-color: black;
+}
+
+.tea-product {
+  width: 1000px;
+  margin: auto;
+}
+
+.img-item {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.tea-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.location {
+  width: 1200px;
+  height: 500px;
+  background-image: url("images/img-locations-background.jpeg");
 }
 
